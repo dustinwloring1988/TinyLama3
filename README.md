@@ -16,7 +16,7 @@ Base models:
 
 | Date       | HF Checkpoint                                   | Tokens | Step | Commonsense Avg |
 |------------|-------------------------------------------------|--------|------| --------------- |
-| 2024-09-01 | NONE YET Example data to the right              | 123B   | 456k |     78.91       |
+| 2024-09-01 | [NAME](LINK)                                    | 123B   | 456k |     78.91       |
 
 
 Chat models:
@@ -50,8 +50,8 @@ Below are some details of our training setup: EXAMPLE DATA BELOW
 | Learning Rate Schedule          | Cosine with 2000 warmup steps. See [Issue 27](https://github.com/jzhang38/TinyLlama/issues/27) for a minor bug     |
 | Training Data                   | [Slimpajama](https://huggingface.co/datasets/cerebras/slimpajama-627b) & [Starcoderdata](https://huggingface.co/datasets/bigcode/starcoderdata) |
 | Data Preprocessing              | Excluded GitHub subset of Slimpajama; Sampled all code from Starcoderdata |
-| Combined Dataset Size           | Around 1T tokens                                              |
-| Total Tokens During Training    | 3 trillion (slightly more than 3 epochs/1430k steps)                                         |
+| Combined Dataset Size           | Around 1T tokens                                               |
+| Total Tokens During Training    | 3 trillion (slightly more than 3 epochs/1430k steps)           |
 | Natural Language to Code Ratio  | 5:4                                                            |
 | Hardware                        | 16 A100-80G GPUs                                               |
 
