@@ -39,7 +39,7 @@ Below are some details of our training setup: EXAMPLE DATA BELOW
 
 | Setting                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| Parameters                      | 1.7B - 3B                                                      |
+| Parameters                      | 1.1B - 2.8B                                                    |
 | Attention Variant               | Grouped Query Attention                                        |
 | Model Size                      | Layers: 22, Heads: 32, Query Groups: 4, Embedding Size: 2048, Intermediate Size (Swiglu): 5632|
 | Sequence Length                 | 4096                                                           |
@@ -48,10 +48,10 @@ Below are some details of our training setup: EXAMPLE DATA BELOW
 | Learning Rate Schedule          | Cosine with 2000 warmup steps. See [Issue 27](https://github.com/jzhang38/TinyLlama/issues/27) for a minor bug     |
 | Training Data                   | [Slimpajama](https://huggingface.co/datasets/cerebras/slimpajama-627b) & [Starcoderdata](https://huggingface.co/datasets/bigcode/starcoderdata) |
 | Data Preprocessing              | Excluded GitHub subset of Slimpajama; Sampled all code from Starcoderdata |
-| Combined Dataset Size           | Around 1T tokens                                               |
-| Total Tokens During Training    | 3 trillion (slightly more than 3 epochs/1430k steps)           |
+| Combined Dataset Size           | Around 3T tokens                                               |
+| Total Tokens During Training    | 6 trillion (slightly more than 3 epochs/2860k steps)           |
 | Natural Language to Code Ratio  | 5:4                                                            |
-| Hardware                        | 16 A100-80G GPUs                                               |
+| Hardware                        | 8 A100-80G GPUs                                               |
 
 
 
