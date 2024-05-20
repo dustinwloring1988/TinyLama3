@@ -1,0 +1,10 @@
+torch>=2.2.0
+lightning==2.1.2
+lightning[app]
+jsonargparse[signatures]  # CLI
+pandas
+pyarrow
+tokenizers
+sentencepiece
+wandb
+zstd
