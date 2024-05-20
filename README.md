@@ -1,5 +1,3 @@
-<div align="center">
-
 # TinyLlama3-About 2B
 English
 
