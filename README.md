@@ -3,13 +3,13 @@
 # TinyLlama3-About 2B
 English
 
-#### News
+## News
 -2024-05-20： Project started
 
-#### Evaluation
+## Evaluation
 TODO: After we have a checkpoint from training 
 
-#### Releases Schedule
+## Releases Schedule
 We will be rolling out intermediate checkpoints following the below schedule. 
 
 Base models:
