@@ -4,7 +4,7 @@
 English
 
 #### News
-- 2024-05-20： Project started
+-2024-05-20： Project started
 
 #### Evaluation
 TODO: After we have a checkpoint from training 
