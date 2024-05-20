@@ -1,5 +1,5 @@
 # TinyLlama3-About 2B
-English
+Hoping to train in 6 months.
 
 ## News
 -2024-05-20： Project started
@@ -43,6 +43,10 @@ Below are some details of our training setup: EXAMPLE DATA BELOW
 | Attention Variant               | Grouped Query Attention                                        |
 | Model Size                      | Layers: 22, Heads: 32, Query Groups: 4, Embedding Size: 2048, Intermediate Size (Swiglu): 5632|
 | Sequence Length                 | 4096                                                           |
+| Vocbulary Size                  | 75K                                                            |
+| Tokenizer                       | TikToken                                                       |
+| Languages                       | English, Spanish, Chinnese, Russian, Hyndi                     |
+| Code                            | Python, C++, Bash, CMD, CSS, HTML, Javascript, TypeScript, ASM, Arduino |
 | Batch Size                      | 2 million tokens (2048 * 1024)                                 |
 | Learning Rate                   | 4e-4                                                           |
 | Learning Rate Schedule          | Cosine with 2000 warmup steps. See [Issue 27](https://github.com/jzhang38/TinyLlama/issues/27) for a minor bug     |
@@ -51,7 +55,7 @@ Below are some details of our training setup: EXAMPLE DATA BELOW
 | Combined Dataset Size           | Around 3T tokens                                               |
 | Total Tokens During Training    | 6 trillion (slightly more than 3 epochs/2860k steps)           |
 | Natural Language to Code Ratio  | 5:4                                                            |
-| Hardware                        | 8 A100-80G GPUs                                               |
+| Hardware                        | 16 A6000-40G GPUs                                              |
 
 
 
